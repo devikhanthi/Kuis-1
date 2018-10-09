@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="267dp"
+        android:layout_height="166dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/palu" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="351dp"
+        android:layout_height="332dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text='Peristiwa likuifaksi atau pencairan tanah bagi banyak ahli maupun peneliti  kebumian merupakan hal biasa. Namun, yang terjadi di Kabupaten Sigi dan Palu  sesaat setelah gempa dengan magnitude 7,4 skala Richter menggoncang Timur Laut  Donggala pada Jumat (28/9), dianggap menyeramkan.  "Itu adalah contoh likuifaksi yang paling menyeramkan yang pernah saya lihat.  Banyak suara-suara aneh terdengar," kata Ahli Geologi dari Universitas Saint  Louis AS, John Encarnacion menanggapi video-video peristiwa likuifaksi yang  terjadi di Kabupaten Sigi dan Kota Palu kepada Antara melalui pesan singkat  diterima di Jakarta, Rabu (3/10). Pada awalnya, justru ia sempat berpikir peristiwa di dalam salah satu video yang  sempat viral di media sosial tersebut adalah tsunami. Ia menduga seluruh kawasan  di dalam video tersebut sebenarnya berada di atas endapan lumpur dan pasir dari  pesisir atau sungai yang tidak terkonsolidasi dan jenuh dalam air. Ketika  material itu terguncang oleh gempa bumi maka tanah menjadi mencair. Usia endapan pasir dan lumpur tersebut, menurut perkiraannya proses pembekuannya  dapat mencapai ribuan hingga puluhan ribu tahun. "(Usia) itu sangat muda dan  tidak cukup waktu untuk berubah menjadi batu. (Likuifaksi) ini sebenarnya adalah  situasi yang sama terjadi di banyak wilayah pesisir," ujar dia.'
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</android.support.constraint.ConstraintLayout>

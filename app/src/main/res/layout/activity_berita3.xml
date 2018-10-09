@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita3">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="236dp"
+        android:layout_height="177dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atc" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="342dp"
+        android:layout_height="338dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text='Denpasar - Menara Air Traffic Controller (ATC) di Bandara Mutiara SIS Al-jufrie, Palu, Sulawesi Tengah, rusak parah akibat gempa dan tsunami. Menara ATC itu bakal segera dihancurkan dan dibangun yang baru.  "Kondisi Palu saya katakan sudah 98 persen dengan mobile tower. Kini sudah diperbaiki runway-nya, ini sedang dalam waktu dekat Pak Menhub kalau nggak salah tanggal 10 sudah full, pulih 100 persen. Mobile tower akan berada di sana sampai tower pengganti bangunan kami sudah retak dan akan dibangun di belakang," kata Dirut AirNav Novie Riyanto di kantornya, Jl Airport I Gusti Ngurah Rai, Bali, Senin (8/10/2018). Novie memastikan tower permanen itu bakal segera dibangun untuk menggantikan mobile tower, yang kini beroperasi sementara di Bandara Al-Jufrie.   "Tower lama akan di-demolished, 8 bulan sudah ada tower permanen. Sesegera mungkin (dibangun) karena kita akan bekerja sama dengan BUMN yang bertugas untuk membangun itu, kita targetkan tidak terlalu lama."'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

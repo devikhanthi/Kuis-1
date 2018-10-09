@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="289dp"
+        android:layout_height="179dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fan1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="  Novelis JK Rowling ternyata tak bercanda saat mengatakan trailer akhir Fantastic Beasts: The Crimes of Grindelwald akan membuat penggemar Harry Potter tertarik.
+
+    Trailer tersebut rilis pada 25 September, menampilkan karakter misterius aktris Claudia Kim yang berperan jadi Nagini, ular milik Lord Voldemort dan Horcrux. Namun dalam film, dia adalah anggota sirkus keliling Circus Arcanus.
+    Dilansir dari Digital Spy, menyambut sekuel Fantastic Beasts ini, minggu lalu sembilan tongkat sihir raksasa yang bisa menyala menerangi sepanjang jalan setapak di jembatan Millenium Bridge dan Gereja St Paul di London. Hal ini sekaligus menjadi kampanye Rowling untuk badan amal yang didirikannya, Lumos, yang berfokus pada anak yang terpisah dari keluarga aslinya."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>
